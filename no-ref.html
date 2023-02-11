@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>缩短你的链接</title>
+	<meta http-equiv="刷新" content="1; url={Replace}" />
+	<meta name="referrer" content="no-referrer" />
+</head>
+
+<body>
+	<p>正在重定向..<br /><a href="{Replace}">｛替换｝</a></p>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		setTimeout('window.location.replace( "{Replace}" + window.location.hash );', 1000 )
+
+/* ]]> */
+	</script>
+</body>
+
+</html>
